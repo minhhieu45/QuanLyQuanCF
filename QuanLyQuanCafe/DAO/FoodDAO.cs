@@ -42,5 +42,36 @@ namespace QuanLyQuanCafe.DAO
             }
             return list;
         }
+        public bool InsertFood (string name, int id, float price)
+        {
+            string query = string.Format("INSERT dbo.Food ( name, idCategory , price ) VALUES  ( N'{0}', {1}, {2})", name, id, price);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool UpdateFood(int idFood, string name, int id, float price)
+        {
+            string query = string.Format("UPDATE dbo.Food SET name = N'{0}', idCategory = {1} , price = {2} where id = {3}", name, id, price, idFood);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteFood(int idFood)
+        {
+            BillInfoDAO.Instance.DeleteBillInfoByFoodID(idFood);
+            string query = string.Format("DELETE dbo.Food  where id = {0}", idFood);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public List<Food> SearchFoodByName(string name)
+        {
+            List<Food> list = new List<Food>();
+            string query = string.Format("SELECT * FROM Food where name like N'%{0}%'",name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow dr in data.Rows)
+            {
+                Food food = new Food(dr);
+                list.Add(food);
+            }
+            return list;
+        }
     }
 }

@@ -28,6 +28,10 @@ namespace QuanLyQuanCafe.DAO
             int result = DataProvider.Instance.ExecuteNonQuery("exec USP_UpdateAccount @userName , @displayName , @password , @newpassword", new object[] { userName, displayName, pass, newpass });
             return result > 0;
         }
+        public DataTable GetListAccount()
+        {
+            return DataProvider.Instance.ExecuteQuery("SELECT UserName, DisplayName, Type FROM dbo.Account");
+        }
         public Account GetAccountByUserName(string userName)
         {
             DataTable data = DataProvider.Instance.ExecuteQuery("Select * from Account where userName = '" + userName+"'");
@@ -36,6 +40,30 @@ namespace QuanLyQuanCafe.DAO
                 return new Account(item);
             }
             return null;
-        }  
+        }
+        public bool InsertAccount(string name, string displayName, int type)
+        {
+            string query = string.Format("INSERT dbo.Account ( UserName, DisplayName , Type ) VALUES  ( N'{0}', N'{1}', {2})", name, displayName, type);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool UpdateAccount(string name, string displayName, int type)
+        {
+            string query = string.Format("UPDATE dbo.Account SET  DisplayName =  N'{1}' , Type = {2} where UserName = N'{0}'", name, displayName, type);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool DeleteAccount(string name)
+        {
+            string query = string.Format("DELETE dbo.Account  where UserName = N'{0}'", name);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
+        public bool ResetPassword(string name)
+        {
+            string query = string.Format("UPDATE dbo.Account SET PassWord = N'0'  where UserName = N'{0}'", name);
+            int result = DataProvider.Instance.ExecuteNonQuery(query);
+            return result > 0;
+        }
     }
 }
