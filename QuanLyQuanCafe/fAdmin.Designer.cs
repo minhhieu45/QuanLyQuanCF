@@ -242,7 +242,7 @@
             this.tbFood.Padding = new System.Windows.Forms.Padding(3);
             this.tbFood.Size = new System.Drawing.Size(841, 541);
             this.tbFood.TabIndex = 1;
-            this.tbFood.Text = "Thức Ăn";
+            this.tbFood.Text = "Món";
             this.tbFood.UseVisualStyleBackColor = true;
             // 
             // panel6

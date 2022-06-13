@@ -1,0 +1,14 @@
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\bin\Release\QuanLyQuanCafe.exe.config
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\bin\Release\QuanLyQuanCafe.exe
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\bin\Release\QuanLyQuanCafe.pdb
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.csproj.AssemblyReference.cache
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.csproj.SuggestedBindingRedirects.cache
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.fAccountProfile.resources
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.fAdmin.resources
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.fLogin.resources
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.fTableManager.resources
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.Properties.Resources.resources
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.csproj.GenerateResource.cache
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.csproj.CoreCompileInputs.cache
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.exe
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Release\QuanLyQuanCafe.pdb
