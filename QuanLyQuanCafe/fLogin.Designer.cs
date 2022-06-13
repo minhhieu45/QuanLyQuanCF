@@ -53,25 +53,29 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.BackColor = System.Drawing.Color.DarkGreen;
             this.btnLogin.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnLogin.Location = new System.Drawing.Point(93, 245);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(156, 38);
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Text = "ĐĂNG NHẬP";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExits
             // 
+            this.btnExits.BackColor = System.Drawing.Color.DarkGreen;
             this.btnExits.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExits.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExits.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnExits.Location = new System.Drawing.Point(338, 245);
             this.btnExits.Name = "btnExits";
             this.btnExits.Size = new System.Drawing.Size(99, 38);
             this.btnExits.TabIndex = 6;
             this.btnExits.Text = "THOÁT";
-            this.btnExits.UseVisualStyleBackColor = true;
+            this.btnExits.UseVisualStyleBackColor = false;
             this.btnExits.Click += new System.EventHandler(this.btnExits_Click);
             // 
             // panel1
@@ -134,6 +138,7 @@
             this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleGreen;
             this.CancelButton = this.btnExits;
             this.ClientSize = new System.Drawing.Size(555, 307);
             this.Controls.Add(this.panel2);
