@@ -26,3 +26,5 @@ C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe
 C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.CoreCompileInputs.cache
 C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
 C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\bin\Debug\QuanLyQuanCF.mdf
+C:\Users\vmhsk\Source\Repos\QuanLyQuanCF\QuanLyQuanCafe\bin\Debug\QuanLyQuanCF_log.ldf
